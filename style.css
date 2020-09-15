@@ -409,6 +409,112 @@ img {
 }
 
 
+/* FREDRIK END */
+
+
+
+/* Shamil start*/
+
+ 
+
+.boxes{
+    display: grid;
+    grid-template-columns: 317px 317px 317px;
+    grid-template-rows: 317px 317px;
+}
+
+
+ 
+
+.box1{
+    background-color: #C7DDEA;
+}
+.box2{
+  background-color: #ffffff;  
+}
+.box3{
+    background-color: #EBEBEB;
+}
+.box4{
+   background-color: #ffffff; 
+}
+.box5{
+    background-color: #F17949;
+}
+.box6{
+    background-color: #ffffff;
+}
+
+ 
+
+.box1 h1{
+font-family: Frank Ruhl Libre;
+font-style: normal;
+font-weight: 900;
+font-size: 47px;
+line-height: 100%;
+/* or 45px */
+
+ 
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.02em;
+
+ 
+
+color: rgba(0, 0, 0, 0.8);
+    
+}
+
+ 
+
+.box2 p{
+    font-family: Fira Sans;
+}
+
+ 
+
+
+.section1{
+width: 100%;
+min-height: 68px;
+
+background: #A9A19E;
+}
+
+ 
+
+.section1 a{
+    text-align: center;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+    width:200px;
+}
+
+ 
+
+.section2{
+width: 100%;
+height: 340px;
+
+background: #777574;
+}
+
+ 
+
+/* Shamil end*/
+
+
+
+
+
+
+
+/* MEDIA QUERYS START */
+
 @media only screen and (max-width: 850px) {
     .infofield h1 {
         margin-bottom:0;
@@ -419,4 +525,4 @@ img {
 }
 
 
-/* Fredrik end */
+/* MEDIA QUERYS END */
