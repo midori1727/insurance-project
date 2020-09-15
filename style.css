@@ -263,9 +263,9 @@ img {
     min-height:300px;
     margin:0;
     padding-top:100px;
-    padding-bottom:150px;
-    padding-left:5%;
-    padding-right:5%;
+    padding-bottom:0;
+    /* padding-left:5%;
+    padding-right:5%; */
     /*padding:6wv 50px 150px 6wv;*/
     background-color:#A9A19E;
     background-image: linear-gradient(to bottom, #FAB131, #FAB131);
@@ -325,6 +325,11 @@ img {
     line-height:2em;
 }
 
+.aboutus {
+    background-color:#FAB131;
+    padding-bottom:150px;
+}
+
 .aboutus h1 {
     text-align:center;
     font-family: Frank Ruhl Libre;
@@ -335,7 +340,7 @@ img {
 }
 .aboutus p {
     text-align:center;
-    width:65%;
+    width:50%;
     padding:0;
     margin-left:auto;
     margin-right:auto;
