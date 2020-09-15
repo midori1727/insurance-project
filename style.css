@@ -158,7 +158,7 @@ img {
 
 .nav li a {
     
-    width: 167px;
+    width: 100%;
     height: 57px;
     font-family: Fira Sans;
     font-style: normal;
@@ -523,15 +523,18 @@ background: #777574;
         display:none;
     }
 
+    nav {
+        display: none;
+    }
+
     header {
         grid-template: 
-         "header1 header1" 33% 
+         "header1 header1" 34% 
          "header2 header2" 33%
          "header3 header3" 33%
          / 100%;
         
     }
 }
-
 
 /* MEDIA QUERYS END */
