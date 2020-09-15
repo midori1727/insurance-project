@@ -522,6 +522,15 @@ background: #777574;
     .main1 a {
         display:none;
     }
+
+    header {
+        grid-template: 
+         "header1 header1" 33% 
+         "header2 header2" 33%
+         "header3 header3" 33%
+         / 100%;
+        
+    }
 }
 
 
