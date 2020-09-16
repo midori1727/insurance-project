@@ -34,14 +34,24 @@ span {
 }
 
 
+header {
+    min-height:500px;
+}
+
 .header-section1 {
-    background: #C7DDEA; 
+    min-height:500px;
+    background: #C7DDEA;
+    background-image: url("img/family.png");
+    background-size: auto 60%;
+    background-position: right bottom;
+    background-repeat: no-repeat; 
     grid-area: header1;
     display: grid;
     grid-template: 
     "section1 section1" auto
     "section2 section3" 55%
       / 37% 63%
+
 }
 
 .header-section1-text {
