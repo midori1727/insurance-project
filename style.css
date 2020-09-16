@@ -419,7 +419,7 @@ img {
 
 .boxes{
     display: grid;
-    grid-template-columns: 317px 317px 317px;
+    grid-template-columns: 320px 320px 320px;
     grid-template-rows: 317px 317px;
 }
 
@@ -447,32 +447,252 @@ img {
 
  
 
-.box1 h1{
+.boxes h1{
+position: absolute;
+width: 230px;
+height: 126px;
+left: 550px;
+top: 2083px;
+
 font-family: Frank Ruhl Libre;
 font-style: normal;
-font-weight: 900;
-font-size: 47px;
+font-weight: bold;
+font-size: 45px;
 line-height: 100%;
-/* or 45px */
 
- 
 
 display: flex;
 align-items: center;
 text-align: center;
 letter-spacing: -0.02em;
 
- 
-
 color: rgba(0, 0, 0, 0.8);
+
+
     
 }
 
- 
+.one{
+    
+    
+position: absolute;
+width: 100px;
+height: 100px;
+left: 823px;
+top: 1979px;
 
-.box2 p{
-    font-family: Fira Sans;
+font-family: Frank Ruhl Libre;
+font-style: normal;
+font-weight: 900;
+font-size: 35px;
+line-height: 100%;
+
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.02em;
+
+color: rgba(0, 0, 0, 0.4);
 }
+
+
+.text1{
+    position: absolute;
+width: 257px;
+height: 113px;
+left: 821px;
+top: 2097px;
+
+font-family: Fira Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 17px;
+line-height: 20px;
+
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: rgba(0, 0, 0, 0.7);
+}
+
+.two{
+    position: absolute;
+width: 100px;
+height: 100px;
+left: 1140px;
+top: 1979px;
+
+font-family: Frank Ruhl Libre;
+font-style: normal;
+font-weight: 900;
+font-size: 35px;
+line-height: 100%;
+
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.02em;
+
+color: rgba(0, 0, 0, 0.4);
+}
+
+.text2{
+    position: absolute;
+width: 157px;
+height: 113px;
+left: 1210px;
+top: 2097px;
+
+font-family: Fira Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 17px;
+line-height: 20px;
+
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: rgba(0, 0, 0, 0.7);
+}
+
+.three{
+     position: absolute;
+width: 100px;
+height: 100px;
+left: 500px;
+top: 2300px;
+
+font-family: Frank Ruhl Libre;
+font-style: normal;
+font-weight: 900;
+font-size: 35px;
+line-height: 100%;
+
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.02em;
+
+color: rgba(0, 0, 0, 0.4);
+}
+
+.text3{
+    position: absolute;
+width: 250px;
+height: 113px;
+left: 510px;
+top: 2420px;
+
+font-family: Fira Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 17px;
+line-height: 20px;
+
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: rgba(0, 0, 0, 0.7);
+}
+
+
+.four{
+    position: absolute;
+width: 100px;
+height: 100px;
+left: 821px;
+top: 2300px;
+
+font-family: Frank Ruhl Libre;
+font-style: normal;
+font-weight: 900;
+font-size: 35px;
+line-height: 100%;
+
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.02em;
+
+color: rgba(0, 0, 0, 0.4);
+}
+
+.text4{
+    position: absolute;
+width: 257px;
+height: 113px;
+left: 841px;
+top: 2420px;
+
+font-family: Fira Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 17px;
+line-height: 20px;
+
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: rgba(0, 0, 0, 0.7);
+}
+
+.five{
+    position: absolute;
+width: 100px;
+height: 100px;
+left: 1140px;
+top: 2300px;
+
+font-family: Frank Ruhl Libre;
+font-style: normal;
+font-weight: 900;
+font-size: 35px;
+line-height: 100%;
+
+
+display: flex;
+align-items: center;
+text-align: center;
+letter-spacing: -0.02em;
+
+color: rgba(0, 0, 0, 0.4);
+}
+
+
+.text5{
+    position: absolute;
+width: 257px;
+height: 113px;
+left: 1230px;
+top: 2420px;
+
+font-family: Fira Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 17px;
+line-height: 20px;
+
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: rgba(0, 0, 0, 0.7);
+}
+
+
 
  
 
@@ -484,14 +704,30 @@ min-height: 68px;
 background: #A9A19E;
 }
 
+
+
  
 
 .section1 a{
-    text-align: center;
-    display:block;
-    margin-left:auto;
-    margin-right:auto;
-    width:200px;
+    position: absolute;
+width: 255px;
+height: 31px;
+left: 884px;
+top: 2680px;
+
+font-family: Fira Sans;
+font-style: normal;
+font-weight: bold;
+font-size: 17px;
+line-height: 20px;
+text-decoration: none;
+
+display: flex;
+align-items: center;
+text-align: center;
+
+color: rgba(0, 0, 0, 0.7);
+
 }
 
  
@@ -506,6 +742,8 @@ background: #777574;
  
 
 /* Shamil end*/
+
+
 
 
 
