@@ -34,14 +34,28 @@ span {
 }
 
 
+header {
+    min-height:500px;
+}
+
 .header-section1 {
-    background: #C7DDEA; 
+    min-height:500px;
+    background: #C7DDEA;
+    background-image: url("img/family.png");
+    background-size: auto 55%;
+    background-position: right bottom;
+    background-repeat: no-repeat; 
     grid-area: header1;
-    display: grid;
-    grid-template: 
-    "section1 section1" auto
-    "section2 section3" 52%
-      / 37% 63%
+
+}
+
+.header-section1-text {
+    grid-area: section1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .header-section1 h1{
@@ -50,15 +64,12 @@ span {
     font-family: Frank Ruhl Libre;
     font-style: normal;
     font-weight: 900;
-    font-size: 43px;
+    font-size: 45px;
     line-height: 100%;
     letter-spacing: -0.02em;
     color: #000000;
-    grid-area: section1;
-    margin-left: 105px;
+    margin-left: 40px;
     margin-bottom: 0px;
-    margin-top: 71px;
-    
 }
 
 .header-section1 p {
@@ -66,15 +77,15 @@ span {
     height: 103px;
     color: rgba(0, 0, 0, 0.6);
     grid-area: section1;
-    margin-left: 105px;
-    margin-top: 172px;
+    margin-top: 0px;
+    margin-bottom: 0px;
     
 }
 
   
 .header-section1 .join-button {
-    margin-left: 105px;
     margin-top: 65px;
+
 }
   
 
@@ -82,11 +93,6 @@ button:hover {
     filter:drop-shadow(5px 5px 5px black) invert(100%); 
 }
 
-img {
-    width: 286px;
-    height: 279px;
-    grid-area: section3;
-}
 
 .header-section2 {
     background: #F17949;
@@ -170,27 +176,28 @@ img {
     text-decoration: none;
 
     color: #000000; 
+    opacity: 0.4;
 
 }
 
+.nav li a:hover {
+    opacity: 1;
+}
+
 .nav1 {
-    grid-area: nav1;
-   
+    grid-area: nav1;  
 }
 
 .nav2 {
     grid-area: nav2;
-    opacity: 0.4;
 }
 
 .nav3 {
     grid-area: nav3;
-    opacity: 0.4;
 }
 
 .nav4 {
     grid-area: nav4;
-    opacity: 0.4;
 }
 
 
@@ -766,13 +773,27 @@ background: #777574;
     }
 
     header {
-        grid-template: 
-         "header1 header1" 34% 
-         "header2 header2" 33%
-         "header3 header3" 33%
-         / 100%;
-        
+        display: flex;
+        flex-direction: column; 
     }
+
+    .header-section1 {
+        
+        background-size: auto 50%;
+        background-position: center bottom;
+        background-repeat: no-repeat; 
+        min-height: 724px;
+    }
+
+    .header-section1 .join-button {
+        margin-top: 30px;
+    }
+
+
+    .header-section2, .header-section3 {
+        height: 315px;
+    }
+
 }
 
 /* MEDIA QUERYS END */
