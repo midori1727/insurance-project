@@ -42,15 +42,10 @@ header {
     min-height:500px;
     background: #C7DDEA;
     background-image: url("img/family.png");
-    background-size: auto 60%;
+    background-size: auto 55%;
     background-position: right bottom;
     background-repeat: no-repeat; 
     grid-area: header1;
-    display: grid;
-    grid-template: 
-    "section1 section1" auto
-    "section2 section3" 55%
-      / 37% 63%
 
 }
 
@@ -89,8 +84,8 @@ header {
 
   
 .header-section1 .join-button {
-    margin-left: 105px;
     margin-top: 65px;
+
 }
   
 
@@ -98,11 +93,6 @@ button:hover {
     filter:drop-shadow(5px 5px 5px black) invert(100%); 
 }
 
-img {
-    width: 286px;
-    height: 279px;
-    grid-area: section3;
-}
 
 .header-section2 {
     background: #F17949;
@@ -549,25 +539,23 @@ background: #777574;
         flex-direction: column; 
     }
 
+    .header-section1 {
+        
+        background-size: auto 50%;
+        background-position: center bottom;
+        background-repeat: no-repeat; 
+        min-height: 724px;
+    }
+
+    .header-section1 .join-button {
+        margin-top: 30px;
+    }
+
+
     .header-section2, .header-section3 {
         height: 315px;
     }
-    
-    .header-section1 {
-        display: flex;
-        flex-direction: column; 
-        
-    }
-    
-    /*
-    header {
-        grid-template: 
-         "header1" 34% 
-         "header2" 33%
-         "header3" 33%
-         / 100%;
-    }
-    */
+
 }
 
 /* MEDIA QUERYS END */
