@@ -20,7 +20,7 @@ body {
     padding:0;
 }
 
-.join-button {
+.join-button, .formbutton {
     text-decoration:none;
     color:black;
     display:inline-block;
@@ -32,14 +32,22 @@ body {
     font-size: 10px;
     line-height: 3em;
     text-align:center;
+    border:0;
     background-image: url("img/button.png");
     background-size: 100% auto;
     background-position: center center;
     background-repeat: no-repeat;
 }
-.join-button:hover {
+.formbutton {
+    background-color:transparent;
+    width:15em;
+    height:4em;
+    float: right;
+}
+.join-button:hover, .formbutton:hover {
     filter:drop-shadow(5px 5px 5px black) invert(100%); 
 }
+
 
 
 /* GENERAL CSS TO BE USED IN BOTH HTML-docs and/or 2 OR MORE SECTIONS END */
@@ -826,6 +834,21 @@ background: #777574;
     margin:0;
     padding:0;
 }
+
+textarea, input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 0;
+    border-radius: 4px;
+    background-color: white;
+    resize: none;
+    margin-bottom:25px;
+}
+textarea {
+    height: 150px;
+}
+
 
 
 /* CSS FOR CONTACT PAGE END */
