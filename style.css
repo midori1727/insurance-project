@@ -772,17 +772,15 @@ background: #777574;
 
 /* CSS FOR CONTACT PAGE START */
 
-
+.white-nav {
+    background-color:white;
+}
 .main-contact {
     width:100%;
     min-height:300px;
     margin:0;
     padding:0;
     background-color:#A9A19E;
-    background-image: linear-gradient(to bottom, #FAB131, #FAB131);
-    background-size: 100% 50%;
-    background-position: left bottom;
-    background-repeat: no-repeat;
 }
 
 
