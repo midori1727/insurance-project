@@ -1,3 +1,5 @@
+/* GENERAL CSS TO BE USED IN BOTH HTML-docs and/or 2 OR MORE SECTIONS START */
+
 body {
     background: #E5E5E5;
     font-family: 'Fira Sans', sans-serif;
@@ -5,6 +7,11 @@ body {
     font-weight: 500;
     font-size: 14px;
     line-height: 24px;
+}
+
+label, textarea {
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.7);
 }
 
 .wrapper {
@@ -18,15 +25,53 @@ body {
     padding:0;
 }
 
+.join-button, .formbutton {
+    text-decoration:none;
+    color:black;
+    display:inline-block;
+    box-sizing: border-box;
+    width:10em;
+    height:3em;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 3em;
+    text-align:center;
+    border:0;
+    background-image: url("img/button.png");
+    background-size: 100% auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.formbutton {
+    background-color:transparent;
+    width:12em;
+    height:4em;
+    float: right;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.7);
+}
+.join-button:hover, .formbutton:hover {
+    filter:drop-shadow(5px 5px 5px black) invert(100%); 
+}
+
+
+
+/* GENERAL CSS TO BE USED IN BOTH HTML-docs and/or 2 OR MORE SECTIONS END */
+
+
+
+/* CSS FOR INDEX.HTML START */
+
+
 /* Midori Start*/
 
-header {
+.header-top {
     display: grid;
     grid-template: 
      "header1 header2" 50% 
      "header1 header3" 50%
      / 50% 50%;
-    
 }
 
 span {
@@ -46,16 +91,13 @@ header {
     background-position: right bottom;
     background-repeat: no-repeat; 
     grid-area: header1;
-
 }
 
 .header-section1-text {
-    grid-area: section1;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
 }
 
 .header-section1 h1{
@@ -79,13 +121,11 @@ header {
     grid-area: section1;
     margin-top: 0px;
     margin-bottom: 0px;
-    
 }
 
   
 .header-section1 .join-button {
     margin-top: 65px;
-
 }
   
 
@@ -115,9 +155,7 @@ button:hover {
     font-size: 11px;
     line-height: 13px;
     margin-bottom: 0px;
-    
     letter-spacing: -0.02em;
-
     color: rgba(0, 0, 0, 0.5);
 }
 
@@ -127,13 +165,11 @@ button:hover {
     height: 41px;
     left: 860px;
     top: 131px;
-
     font-family: Frank Ruhl Libre;
     font-style: normal;
     font-weight: 900;
     font-size: 32px;
     line-height: 41px;
-    
     letter-spacing: -0.02em;
     margin-top: 0px;
     color: #FFFFFF;
@@ -147,96 +183,69 @@ button:hover {
     justify-content: center;
     align-items: center;
     text-align: center;
-    
-    
 }
 
 .nav {
-    display: grid;
+    display: flex;
+    justify-content: center;
     list-style: none;
     align-items: center;
     text-align: center;
-    grid-template:
-      "... nav1 nav2 nav3 nav4 ... " 57px
-      / 1fr 167px 167px 167px 167px 1fr;
+    height: 57px;
+    padding:0;
+    margin:0;
+}
 
+.nav li {
+    width: 16%;
 }
 
 .nav li a {
-    
     width: 100%;
-    height: 57px;
     font-family: Fira Sans;
-    font-style: normal;
     font-weight: 600;
     font-size: 12px;
     line-height: 100%;
-    
     letter-spacing: -0.02em;
     text-decoration: none;
-
     color: #000000; 
     opacity: 0.4;
-
 }
 
 .nav li a:hover {
     opacity: 1;
 }
 
-.nav1 {
-    grid-area: nav1;  
-}
-
-.nav2 {
-    grid-area: nav2;
-}
-
-.nav3 {
-    grid-area: nav3;
-}
-
-.nav4 {
-    grid-area: nav4;
-}
-
-
 /*Midori end*/
 
 /* Fredrik start */
 
 
-.join-button {
-    text-decoration:none;
-    color:black;
-    display:inline-block;
-    box-sizing: border-box;
-    width:10em;
-    height:3em;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 10px;
-    line-height: 3em;
-    text-align:center;
-    background-image: url("img/button.png");
-    background-size: 100% auto;
-    background-position: center center;
-    background-repeat: no-repeat;
-}
-.join-button:hover {
-    filter:drop-shadow(5px 5px 5px black) invert(100%); 
-}
+
+
+
 
 .main1 {
+    display:inline-block;
+    box-sizing: border-box;
     width:100%;
     min-height:300px;
     margin:0;
-    padding:0;
+    padding-top:100px;
+    padding-bottom:0;
+    /* padding-left:5%;
+    padding-right:5%; */
+    /*padding:6wv 50px 150px 6wv;*/
     background-color:#A9A19E;
     background-image: linear-gradient(to bottom, #FAB131, #FAB131);
-    background-size: 100% 50%;
+    background-size: 100% 50vw;
     background-position: left bottom;
     background-repeat: no-repeat;
+    color:rgba(0,0,0,0.8);
+}
+.main1 h1 {
+    color:white;
+    font-size:3em;
 }
 
 .infofield, .cards, .aboutus {
@@ -258,34 +267,6 @@ button:hover {
 }
 
 
-.font, .main1 p {
-    font-family: Verdana, Helvetica, sans-serif;
-}
-
-
-.main1 {
-    display:inline-block;
-    box-sizing: border-box;
-    width:100%;
-    min-height:300px;
-    margin:0;
-    padding-top:100px;
-    padding-bottom:0;
-    /* padding-left:5%;
-    padding-right:5%; */
-    /*padding:6wv 50px 150px 6wv;*/
-    background-color:#A9A19E;
-    background-image: linear-gradient(to bottom, #FAB131, #FAB131);
-    background-size: 100% 50vw;
-    background-position: left bottom;
-    background-repeat: no-repeat;
-    color:rgba(0,0,0,0.8);
-}
-
-.main1 h1 {
-    color:white;
-    font-size:3em;
-}
 .infofield h1 {
     width:80%;
     /* background-color:yellow; */
@@ -672,9 +653,11 @@ display: flex;
 
 .section1{
 width: 100%;
-min-height: 68px;
-
+display:block;
+box-sizing: inline-box;
 background: #A9A19E;
+padding:0;
+padding-top:10px;
 }
 
 
@@ -682,7 +665,15 @@ background: #A9A19E;
  
 
 .section1 a{
+<<<<<<< HEAD
     
+=======
+width: 100%;
+display:inline-block;
+margin-left:auto;
+margin-right:auto;
+text-align:center;
+>>>>>>> 7737b8a59d8f8ce33ee08a958189499b7e602bf3
 
 font-family: Fira Sans;
 font-style: normal;
@@ -691,14 +682,29 @@ font-size: 17px;
 line-height: 20px;
 text-decoration: none;
 
+<<<<<<< HEAD
 display: flex;
   justify-content: center;
   align-items: center;
     text-align: center;
   height: 5em;
 
+=======
+>>>>>>> 7737b8a59d8f8ce33ee08a958189499b7e602bf3
 color: rgba(0, 0, 0, 0.7);
 
+}
+.triangle {
+    margin:0;
+    padding:0;
+    margin-left:auto;
+    margin-right:auto;
+    width: 50px;
+    height: 30px;
+    background-image: url("img/triangle.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 
  
@@ -716,6 +722,171 @@ background: #777574;
 
 
 
+/* CSS FOR INDEX.HTML END */
+
+
+
+
+
+/* CSS FOR CONTACT PAGE START */
+
+
+
+.white-nav {
+    background-color:white;
+}
+
+.main-contact {
+    width:100%;
+    min-height:300px;
+    margin:0;
+    padding:0;
+    background-color:#A9A19E;
+}
+
+.header-contact {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    width:100%;
+    min-height:400px;
+    background-color:#C7DDEA;
+    background-image: url("img/Frame.png");
+    background-size: auto 90%;
+    background-position: 90% bottom;
+    background-repeat: no-repeat;
+}
+.header-contact h1 {
+    width:100%;
+    text-align:center;
+    font-family: Frank Ruhl Libre;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 58px;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+}
+
+.main-contact {
+    display:flex;
+    flex-flow: row wrap;
+    justify-content:center;
+    align-items:flex-start;
+    padding-top:10%;
+}
+
+.formblock1, .formblock2 {
+    display:block;
+    box-sizing: content-box;
+    margin:0;
+    padding:0;
+    width:100%;
+    max-width:430px;
+    min-height:200px;
+    margin-left:1%;
+    margin-right:1%;
+}
+
+.formblock1 {
+    min-height:50px;
+}
+
+.formblock1 p {
+    color:white;
+    font-family: Frank Ruhl Libre;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 58px;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+    margin:0;
+    padding:0;
+}
+
+textarea, input[type=email] {
+    width: 100%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 0;
+    border-radius: 4px;
+    background-color: white;
+    resize: none;
+    margin-bottom:25px;
+}
+textarea {
+    height: 150px;
+}
+
+
+.footer-top {
+    width: 100%;
+    height: 407px;
+    background-image: url("img/Rectangle\ 6.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+      
+    
+}
+
+.footer-text {
+    width: 323px;
+    height: 206px;
+    background: #FAB131;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
+    /*grid-area: text;*/
+    /*margin: 45px auto auto auto;
+    */
+}
+
+.footer-text h2 {
+   
+    font-family: Frank Ruhl Libre;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 100%;
+/* identical to box height, or 45px */
+
+    letter-spacing: -0.02em;
+    margin: 0 auto;
+    margin: 22px auto auto 22px;
+
+    color: #FFFFFF;
+
+}
+
+adress {
+    width: 277px;
+    height: 76px;
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+/* or 171% */
+    margin:22px auto auto 22px;
+
+    color: rgba(255, 255, 255, 0.8);
+}
+
+
+
+.footer-bottom {
+    width: 100%;
+    height: 340px;
+    background: #777574;
+}
+
+
+.marker {
+    font-size: 8em;
+    color: #F17949;
+}
+
+
+/* CSS FOR CONTACT PAGE END */
 
 
 
@@ -736,13 +907,12 @@ background: #777574;
         display: none;
     }
 
-    header {
+    .header-top {
         display: flex;
         flex-direction: column; 
     }
 
     .header-section1 {
-        
         background-size: auto 50%;
         background-position: center bottom;
         background-repeat: no-repeat; 
@@ -753,11 +923,11 @@ background: #777574;
         margin-top: 30px;
     }
 
-
     .header-section2, .header-section3 {
         height: 315px;
     }
 
+<<<<<<< HEAD
     
     .boxes h1{
       
@@ -769,6 +939,9 @@ top: 3250px;
         
 
     }
+=======
+
+>>>>>>> 7737b8a59d8f8ce33ee08a958189499b7e602bf3
 }
 
 
