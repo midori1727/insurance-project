@@ -778,7 +778,23 @@ background: #777574;
     letter-spacing: -0.02em;
 }
 
+.main-contact {
+    display:flex;
+    flex-flow: row wrap;
+    justify-content:center;
+    align-items:center;
+}
 
+.main-contact section {
+    display:block;
+    box-sizing: content-box;
+    margin:0;
+    padding:0;
+    background-color:red;
+    width:100%;
+    max-width:430px;
+    min-height:200px;
+}
 
 
 /* CSS FOR CONTACT PAGE END */
