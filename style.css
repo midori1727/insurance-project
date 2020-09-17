@@ -51,7 +51,7 @@ body {
 
 /* Midori Start*/
 
-header {
+.header-top {
     display: grid;
     grid-template: 
      "header1 header2" 50% 
