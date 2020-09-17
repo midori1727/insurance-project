@@ -1,3 +1,5 @@
+/* GENERAL CSS TO BE USED IN BOTH HTML-docs and/or 2 OR MORE SECTIONS START */
+
 body {
     background: #E5E5E5;
     font-family: 'Fira Sans', sans-serif;
@@ -17,6 +19,35 @@ body {
     min-height:600px;
     padding:0;
 }
+
+.join-button {
+    text-decoration:none;
+    color:black;
+    display:inline-block;
+    box-sizing: border-box;
+    width:10em;
+    height:3em;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 3em;
+    text-align:center;
+    background-image: url("img/button.png");
+    background-size: 100% auto;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.join-button:hover {
+    filter:drop-shadow(5px 5px 5px black) invert(100%); 
+}
+
+
+/* GENERAL CSS TO BE USED IN BOTH HTML-docs and/or 2 OR MORE SECTIONS END */
+
+
+
+/* CSS FOR INDEX.HTML START */
+
 
 /* Midori Start*/
 
@@ -206,26 +237,7 @@ button:hover {
 /* Fredrik start */
 
 
-.join-button {
-    text-decoration:none;
-    color:black;
-    display:inline-block;
-    box-sizing: border-box;
-    width:10em;
-    height:3em;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 10px;
-    line-height: 3em;
-    text-align:center;
-    background-image: url("img/button.png");
-    background-size: 100% auto;
-    background-position: center center;
-    background-repeat: no-repeat;
-}
-.join-button:hover {
-    filter:drop-shadow(5px 5px 5px black) invert(100%); 
-}
+
 
 .main1 {
     width:100%;
@@ -752,6 +764,31 @@ background: #777574;
 
 
 
+/* CSS FOR INDEX.HTML END */
+
+
+
+
+
+/* CSS FOR CONTACT PAGE START */
+
+
+.main-contact {
+    width:100%;
+    min-height:300px;
+    margin:0;
+    padding:0;
+    background-color:#A9A19E;
+    background-image: linear-gradient(to bottom, #FAB131, #FAB131);
+    background-size: 100% 50%;
+    background-position: left bottom;
+    background-repeat: no-repeat;
+}
+
+
+
+
+/* CSS FOR CONTACT PAGE END */
 
 
 
