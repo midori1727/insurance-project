@@ -29,11 +29,17 @@
         </nav>
 
         <main class="main-contact" id="offer">
-            <section>
-                Whats on your mind?
+            <section class="formblock1">
+                <p>Whats on your mind?</p>
             </section>
-            <section>
-                form goes here
+            <section class="formblock2">
+                <form action="contact.html">
+                    <label for="email">Your email</label>
+                    <input type="email" id="email" name="email" maxlength="50" required>
+                    <label for="mess">Your message</label>
+                    <textarea id="mess" name="mess" maxlength="500">Dear Insurance company...</textarea>
+                    <button type="submit" class="formbutton">Send message</button>
+                </form>
             </section>
 
         </main>
