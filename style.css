@@ -740,6 +740,42 @@ background: #777574;
 
 /* CSS FOR CONTACT PAGE START */
 
+
+/* Midori start */
+
+.header-contact {
+    width: 100%;
+    height: 340px;
+    background: #C7DDEA;
+    margin: 0 auto;
+    display: flex;
+    background-image: url("img/Frame.png");
+    background-size: auto 80%;
+    background-position: 90% bottom;
+    background-repeat: no-repeat;
+
+
+}
+
+.header-section {
+    
+    font-family: Frank Ruhl Libre;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+    color: #000000;
+    margin: 270px auto auto auto;
+    
+
+
+}
+
+/* Midori end */
+
+
+
 .white-nav {
     background-color:white;
 }
@@ -794,6 +830,22 @@ background: #777574;
     .header-section2, .header-section3 {
         height: 315px;
     }
+
+    /* contact start*/
+
+    .header-contact {
+        background-size: auto 50%;
+        background-position: center bottom;
+        background-repeat: no-repeat; 
+        min-height: 500px;
+    }
+
+    .header-sction {
+        /*margin-top: 50px;*/
+    }
+
+    /* contact end*/
+
 
 }
 
