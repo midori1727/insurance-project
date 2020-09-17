@@ -775,7 +775,7 @@ background: #777574;
         display: none;
     }
 
-    header {
+    .header-top {
         display: flex;
         flex-direction: column; 
     }
