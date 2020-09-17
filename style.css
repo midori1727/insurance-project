@@ -781,6 +781,73 @@ background: #777574;
 
 
 
+.footer-top {
+    width: 100%;
+    height: 407px;
+    background-image: url("img/Rectangle\ 6.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+      
+    
+}
+
+.footer-text {
+    width: 323px;
+    height: 206px;
+    background: #FAB131;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
+    /*grid-area: text;*/
+    /*margin: 45px auto auto auto;
+    */
+}
+
+.footer-text h2 {
+   
+    font-family: Frank Ruhl Libre;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 100%;
+/* identical to box height, or 45px */
+
+    letter-spacing: -0.02em;
+    margin: 0 auto;
+    margin: 22px auto auto 22px;
+
+    color: #FFFFFF;
+
+}
+
+adress {
+    width: 277px;
+    height: 76px;
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 24px;
+/* or 171% */
+    margin:22px auto auto 22px;
+
+    color: rgba(255, 255, 255, 0.8);
+}
+
+
+
+.footer-bottom {
+    width: 100%;
+    height: 340px;
+    background: #777574;
+}
+
+
+.marker {
+    font-size: 8em;
+    color: #F17949;
+}
+
 
 /* CSS FOR CONTACT PAGE END */
 
@@ -825,16 +892,8 @@ background: #777574;
 
     /* contact start*/
 
-    .header-contact {
-        background-size: auto 50%;
-        background-position: center bottom;
-        background-repeat: no-repeat; 
-        min-height: 500px;
-    }
-
-    .header-sction {
-        /*margin-top: 50px;*/
-    }
+    
+    
 
     /* contact end*/
 
