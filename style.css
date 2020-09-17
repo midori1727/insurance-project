@@ -428,13 +428,19 @@ button:hover {
     display: grid;
     grid-template-columns: 320px 320px 320px;
     grid-template-rows: 317px 317px;
+   
+    
 }
 
 
- 
+
 
 .box1{
     background-color: #C7DDEA;
+   
+    
+    
+    
 }
 .box2{
   background-color: #ffffff;  
@@ -455,12 +461,10 @@ button:hover {
  
 
 .boxes h1{
-position: absolute;
-width: 230px;
-height: 126px;
-left: 550px;
-top: 2015px;
 
+
+
+    
 font-family: Frank Ruhl Libre;
 font-style: normal;
 font-weight: bold;
@@ -469,11 +473,12 @@ line-height: 100%;
 
 
 display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: -0.02em;
+  justify-content: center;
+  align-items: center;
+    text-align: center;
+  height: 5em;
 
-color: rgba(0, 0, 0, 0.8);
+
 
 
     
@@ -482,11 +487,7 @@ color: rgba(0, 0, 0, 0.8);
 .one{
     
     
-position: absolute;
-width: 100px;
-height: 100px;
-left: 823px;
-top: 1920px;
+
 
 font-family: Frank Ruhl Libre;
 font-style: normal;
@@ -496,20 +497,16 @@ line-height: 100%;
 
 
 display: flex;
-align-items: center;
-text-align: center;
-letter-spacing: -0.02em;
+  align-content:  flex-start;
+  justify-content: flex-start;
+  width: 6em;
 
 color: rgba(0, 0, 0, 0.4);
 }
 
 
 .text1{
-    position: absolute;
-width: 257px;
-height: 113px;
-left: 821px;
-top: 2040px;
+
 
 font-family: Fira Sans;
 font-style: normal;
@@ -519,18 +516,14 @@ line-height: 20px;
 
 
 display: flex;
-align-items: center;
-text-align: center;
-
-color: rgba(0, 0, 0, 0.7);
+  justify-content: center;
+  align-items: center;
+    text-align: center;
+  height: 5em;
 }
 
 .two{
-    position: absolute;
-width: 100px;
-height: 100px;
-left: 1140px;
-top:  1920px;
+    
 
 font-family: Frank Ruhl Libre;
 font-style: normal;
@@ -542,17 +535,14 @@ line-height: 100%;
 display: flex;
 align-items: center;
 text-align: center;
+    justify-content: center;
 letter-spacing: -0.02em;
 
 color: rgba(0, 0, 0, 0.4);
 }
 
 .text2{
-    position: absolute;
-width: 157px;
-height: 113px;
-left: 1210px;
-top: 2040px;
+   
 
 font-family: Fira Sans;
 font-style: normal;
@@ -562,18 +552,14 @@ line-height: 20px;
 
 
 display: flex;
-align-items: center;
-text-align: center;
-
-color: rgba(0, 0, 0, 0.7);
+  justify-content: center;
+  align-items: center;
+    text-align: center;
+  height: 5em;
 }
 
 .three{
-     position: absolute;
-width: 100px;
-height: 100px;
-left: 500px;
-top: 2240px;
+     
 
 font-family: Frank Ruhl Libre;
 font-style: normal;
@@ -584,6 +570,7 @@ line-height: 100%;
 
 display: flex;
 align-items: center;
+    justify-content: center;
 text-align: center;
 letter-spacing: -0.02em;
 
@@ -591,11 +578,7 @@ color: rgba(0, 0, 0, 0.4);
 }
 
 .text3{
-    position: absolute;
-width: 250px;
-height: 113px;
-left: 510px;
-top: 2350px;
+   
 
 font-family: Fira Sans;
 font-style: normal;
@@ -605,19 +588,15 @@ line-height: 20px;
 
 
 display: flex;
-align-items: center;
-text-align: center;
-
-color: rgba(0, 0, 0, 0.7);
+  justify-content: center;
+  align-items: center;
+    text-align: center;
+  height: 5em;
 }
 
 
 .four{
-    position: absolute;
-width: 100px;
-height: 100px;
-left: 821px;
-top: 2240px;
+    
 
 font-family: Frank Ruhl Libre;
 font-style: normal;
@@ -629,18 +608,14 @@ line-height: 100%;
 display: flex;
 align-items: center;
 text-align: center;
+    justify-content: center;
 letter-spacing: -0.02em;
 
 color: rgba(0, 0, 0, 0.4);
 }
 
 .text4{
-    position: absolute;
-width: 257px;
-height: 113px;
-left: 841px;
-top: 2350px;
-
+    
 font-family: Fira Sans;
 font-style: normal;
 font-weight: bold;
@@ -649,18 +624,14 @@ line-height: 20px;
 
 
 display: flex;
-align-items: center;
-text-align: center;
-
-color: rgba(0, 0, 0, 0.7);
+  justify-content: center;
+  align-items: center;
+    text-align: center;
+  height: 5em;
 }
 
 .five{
-    position: absolute;
-width: 100px;
-height: 100px;
-left: 1140px;
-top: 2240px;
+    
 
 font-family: Frank Ruhl Libre;
 font-style: normal;
@@ -672,6 +643,7 @@ line-height: 100%;
 display: flex;
 align-items: center;
 text-align: center;
+    justify-content: center;
 letter-spacing: -0.02em;
 
 color: rgba(0, 0, 0, 0.4);
@@ -679,24 +651,18 @@ color: rgba(0, 0, 0, 0.4);
 
 
 .text5{
-    position: absolute;
-width: 257px;
-height: 113px;
-left: 1230px;
-top: 2350px;
-
+    
 font-family: Fira Sans;
 font-style: normal;
 font-weight: bold;
 font-size: 17px;
 line-height: 20px;
 
-
 display: flex;
-align-items: center;
-text-align: center;
-
-color: rgba(0, 0, 0, 0.7);
+  justify-content: center;
+  align-items: center;
+    text-align: center;
+  height: 5em;
 }
 
 
@@ -716,11 +682,7 @@ background: #A9A19E;
  
 
 .section1 a{
-    position: absolute;
-width: 255px;
-height: 31px;
-left: 884px;
-top: 2600px;
+    
 
 font-family: Fira Sans;
 font-style: normal;
@@ -730,8 +692,10 @@ line-height: 20px;
 text-decoration: none;
 
 display: flex;
-align-items: center;
-text-align: center;
+  justify-content: center;
+  align-items: center;
+    text-align: center;
+  height: 5em;
 
 color: rgba(0, 0, 0, 0.7);
 
@@ -794,6 +758,19 @@ background: #777574;
         height: 315px;
     }
 
+    
+    .boxes h1{
+      
+        color: blue;
+           width: 230px;
+height: 126px;
+left: 14%;
+top: 3250px;
+        
+
+    }
 }
+
+
 
 /* MEDIA QUERYS END */
