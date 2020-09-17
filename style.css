@@ -792,18 +792,39 @@ background: #777574;
     display:flex;
     flex-flow: row wrap;
     justify-content:center;
-    align-items:center;
+    align-items:flex-start;
+    padding-top:10%;
 }
 
-.main-contact section {
+.formblock1, .formblock2 {
     display:block;
     box-sizing: content-box;
     margin:0;
     padding:0;
-    background-color:red;
     width:100%;
     max-width:430px;
     min-height:200px;
+    margin-left:1%;
+    margin-right:1%;
+}
+
+.formblock1 {
+    min-height:50px;
+}
+.formblock2 {
+    background-color:aqua;
+}
+
+.formblock1 p {
+    color:white;
+    font-family: Frank Ruhl Libre;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 58px;
+    line-height: 100%;
+    letter-spacing: -0.02em;
+    margin:0;
+    padding:0;
 }
 
 
