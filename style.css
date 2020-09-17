@@ -687,9 +687,11 @@ color: rgba(0, 0, 0, 0.7);
 
 .section1{
 width: 100%;
-min-height: 68px;
-
+display:block;
+box-sizing: inline-box;
 background: #A9A19E;
+padding:0;
+padding-top:10px;
 }
 
 
@@ -697,11 +699,11 @@ background: #A9A19E;
  
 
 .section1 a{
-    position: absolute;
-width: 255px;
-height: 31px;
-left: 884px;
-top: 2600px;
+width: 100%;
+display:inline-block;
+margin-left:auto;
+margin-right:auto;
+text-align:center;
 
 font-family: Fira Sans;
 font-style: normal;
@@ -710,12 +712,20 @@ font-size: 17px;
 line-height: 20px;
 text-decoration: none;
 
-display: flex;
-align-items: center;
-text-align: center;
-
 color: rgba(0, 0, 0, 0.7);
 
+}
+.triangle {
+    margin:0;
+    padding:0;
+    margin-left:auto;
+    margin-right:auto;
+    width: 50px;
+    height: 30px;
+    background-image: url("img/triangle.png");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
 }
 
  
