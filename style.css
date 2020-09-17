@@ -843,12 +843,7 @@ textarea {
     width: 100%;
     height: 407px;
     background-image: url("img/Rectangle\ 6.png");
-    display: flex;
-    justify-content: center;
-    align-items: center;
-   
-      
-    
+    display: flex;   
 }
 
 .footer-text {
@@ -856,9 +851,8 @@ textarea {
     height: 206px;
     background: #FAB131;
     box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
-    /*grid-area: text;*/
-    /*margin: 45px auto auto auto;
-    */
+    margin-top: 45px;
+    margin-left: 86px;
 }
 
 .footer-text h2 {
@@ -869,13 +863,10 @@ textarea {
     font-size: 40px;
     line-height: 100%;
 /* identical to box height, or 45px */
-
     letter-spacing: -0.02em;
-    margin: 0 auto;
-    margin: 22px auto auto 22px;
-
     color: #FFFFFF;
-
+    margin-left: 20px;
+    margin-bottom: 0px;
 }
 
 adress {
@@ -888,11 +879,12 @@ adress {
     line-height: 24px;
 /* or 171% */
     margin:22px auto auto 22px;
-
     color: rgba(255, 255, 255, 0.8);
 }
 
-
+adress p {
+    margin: 0px auto 0px 20px;
+}
 
 .footer-bottom {
     width: 100%;
@@ -900,10 +892,11 @@ adress {
     background: #777574;
 }
 
-
 .marker {
     font-size: 8em;
     color: #F17949;
+    margin-top: 160px;
+    margin-left: 50px;
 }
 
 
@@ -946,6 +939,14 @@ adress {
 
     .header-section2, .header-section3 {
         height: 315px;
+    }
+
+    .footer-text {
+        min-height: 250px;
+    }
+
+    .marker {
+        visibility:hidden;
     }
 
 
