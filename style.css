@@ -591,6 +591,7 @@ background: #777574;
     margin:0;
     padding:0;
     background-color:#A9A19E;
+    padding-bottom:100px;
 }
 
 .header-contact {
@@ -667,20 +668,28 @@ textarea {
 }
 
 
+
+
 .footer-top {
+    display: flex;
     width: 100%;
-    height: 407px;
-    background-image: url("img/Rectangle\ 6.png");
-    display: flex;   
+    min-height: 407px;
+    background-image: url("img/marker.png"), url("img/Rectangle6.png");
+    background-size: auto 20%, auto auto;
+    background-position: 50% 55%, center center;
+    background-repeat: no-repeat, no-repeat;  
 }
 
 .footer-text {
-    width: 323px;
-    height: 206px;
+    width: 270px;
+    height: 190px;
+    height:calc(120px + 4vw);
     background: #FAB131;
     box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.1);
-    margin-top: 45px;
-    margin-left: 86px;
+    margin-top: 5%;
+    margin-left: 10%;
+    padding:0;
+    display:block;
 }
 
 .footer-text h2 {
@@ -690,27 +699,28 @@ textarea {
     font-weight: 900;
     font-size: 40px;
     line-height: 100%;
-/* identical to box height, or 45px */
     letter-spacing: -0.02em;
     color: #FFFFFF;
-    margin-left: 20px;
-    margin-bottom: 0px;
+    margin:0;
+    margin-left:10px;
+    margin-top:18px;
 }
 
-adress {
-    width: 277px;
-    height: 76px;
+.adress {
+    display:block;
+    width: auto;
+    height: auto;
     font-family: Fira Sans;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 24px;
-/* or 171% */
-    margin:22px auto auto 22px;
+    margin:12px auto auto 22px;
     color: rgba(255, 255, 255, 0.8);
 }
 
-adress p {
+.adress p {
+    padding:0;
     margin: 0px auto 0px 20px;
 }
 
@@ -720,12 +730,6 @@ adress p {
     background: #777574;
 }
 
-.marker {
-    font-size: 8em;
-    color: #F17949;
-    margin-top: 160px;
-    margin-left: 50px;
-}
 
 
 /* CSS FOR CONTACT PAGE END */
@@ -776,23 +780,7 @@ adress p {
     }
 
 
-    .footer-text {
-        min-height: 250px;
-    }
-
-    .marker {
-        visibility:hidden;
-    }
     
-    .boxes {
-        display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-    }
-
-    .box-items {
-        width: 100%;
-    }
 
    
 }
