@@ -466,7 +466,7 @@ button:hover {
 }
 
 .number {
-    width: 240px;
+    width: 50px;
     height: 100px;
     font-family: Frank Ruhl Libre;
     font-style: normal;
@@ -771,13 +771,7 @@ adress p {
         width: 100%;
     }
 
-    .section1 a{
-        display: none;
-    }
-    
-    .number{
-        width: 40px;
-    }
+   
 }
 
 /* MEDIA QUERYS END */
