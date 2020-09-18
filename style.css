@@ -666,33 +666,14 @@ padding-top:10px;
  
 
 .section1 a{
-<<<<<<< HEAD
-    
-=======
-width: 100%;
-display:inline-block;
-margin-left:auto;
-margin-right:auto;
-text-align:center;
->>>>>>> 7737b8a59d8f8ce33ee08a958189499b7e602bf3
-
 font-family: Fira Sans;
 font-style: normal;
 font-weight: bold;
 font-size: 17px;
 line-height: 20px;
 text-decoration: none;
-    color: black;
-
-<<<<<<< HEAD
-display: flex;
-  justify-content: center;
-  align-items: center;
-    text-align: center;
-  height: 5em;
-
-=======
->>>>>>> 7737b8a59d8f8ce33ee08a958189499b7e602bf3
+margin-left:auto;
+margin-right:auto;
 color: rgba(0, 0, 0, 0.7);
 
 }
