@@ -518,17 +518,8 @@ font-weight: bold;
 font-size: 17px;
 line-height: 20px;
 text-decoration: none;
-color: black;
-
-
-display: flex;
-justify-content: center;
-align-items: center;
-text-align: center;
-height: 5em;
-
-
-
+margin-left:auto;
+margin-right:auto;
 color: rgba(0, 0, 0, 0.7);
 
 }
