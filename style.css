@@ -492,7 +492,7 @@ button:hover {
 .box-text {
     font-family: Fira Sans;
     font-style: normal;
-    font-weight: 500;
+    font-weight: bold;
     font-size: 17px;
     line-height: 17px;
     display:block;
@@ -503,7 +503,8 @@ button:hover {
     margin-right: auto;
     text-align:center;
     color: rgba(0, 0, 0, 0.8);
-
+   
+    
 }
 
 
@@ -515,7 +516,7 @@ box-sizing: inline-box;
 background: #A9A19E;
 padding:0;
 padding-top:10px;
-    text-align: center;
+    
 }
 
 
@@ -523,7 +524,7 @@ padding-top:10px;
  
 
 .section1 a{
-
+height: 50px;
 width: 100%;
 display:inline-block;
 margin-left:auto;
@@ -793,6 +794,7 @@ adress p {
         width: 100%;
     }
 
+   
 }
 
 /* MEDIA QUERYS END */
